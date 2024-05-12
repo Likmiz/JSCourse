@@ -1,0 +1,29 @@
+table {
+    border-collapse: collapse;
+    max-width: 50%;
+    margin: 1rem;
+}
+
+th,
+td {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.section {
+    background-color: #11395c0d;
+    border-radius: 15px;
+    margin: 10px 5px;
+    padding: 5px 2px;
+}
+
+.contacts input,
+.contacts textarea {
+    background-color: #8edbeb21;
+    border: 1px #2965f07d solid;
+}
