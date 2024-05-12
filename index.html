@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles/index.css">
     <link rel="stylesheet" href="css/styles/main.css">
@@ -12,49 +12,47 @@
 
 <body>
     <header class="header">
-        <h1>Капибара | Мой блог</h1>
+        <h1>Капибара | Блог</h1>
     </header>
 
     <section class="section">
-        <h2>Обо мне</h2>
-        <img width="200px" src="./img/capybara_400_400.jpg" alt="Здесь должно быть фото капибары">
-        <article>
-            <p>
-                Я Капибара, я крупное травоядное млекопитающее, которое обитает в заболоченных регионах Латинской Америки.
-            </p>
-            <p>
-                Внешне капибара напоминю великого бобра с широкой, тупой мордой и округлыми ушами. Длина тела достигает
-                1–1,35 метра, а вес варьируется от 34 до 65,5 килограммов (самки обычно крупнее самцов). Эти общительные
-                животные живут в группах и являются ближайшими родственниками морских свинок и кавии.
-            </p>
-            <a href="pages/history.html">Читать историю</a>
-        </article>
-    </section>
+        <div class="section_element">
+            <h2>Обо мне</h2>
+            <img width="200px" src="./img/capybara_400_400.jpg" alt="Здесь должно быть фото капибары">
+            <article>
+                <p>Я Капибара, я крупное травоядное млекопитающее, которое обитает в заболоченных регионах Латинской Америки.</p>
+                <p>Внешне капибара напоминю великого бобра с широкой, тупой мордой и округлыми ушами. Длина тела достигает
+                    1–1,35 метра, а вес варьируется от 34 до 65,5 килограммов (самки обычно крупнее самцов). Эти общительные
+                    животные живут в группах и являются ближайшими родственниками морских свинок и кавии.</p>
+                <a href="pages/history.html">Читать историю</a>
+            </article>
+        </div>
 
-    <section class="section">
-        <h3>Мои хобби</h3>
-        <ul>
-            <li>Плавание</li>
-            <li>Социальные взаимодействия</li>
-            <li>Пастбища и травосбор</li>
-            <li>Загорание</li>
-            <li>Исследование окружающей среды</li>
-        </ul>
-        <a href="pages/myLifestyle.html">Почтитать о моем стиле жизни</a><br />
-        <a href="https://youtu.be/hu24nFCk3pA" target="_blank">Мое видео</a>
-    </section>
+        <div class="section_element">
+            <h3>Мои хобби</h3>
+            <ul>
+                <li>Плавание</li>
+                <li>Социальные взаимодействия</li>
+                <li>Пастбища и травосбор</li>
+                <li>Загорание</li>
+                <li>Исследование окружающей среды</li>
+            </ul>
+            <a href="pages/myLifestyle.html">Почтитать о моем стиле жизни</a><br />
+            <a href="https://youtu.be/hu24nFCk3pA" target="_blank">Мое видео</a>
+        </div>
+        
+        <div class="section_element">
+            <h3>Что про меня пишут люди</h3>
+            <article>
+                <h4>Почему меня любят люди</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus quidem, labore ad ducimus, minima asperiores aliquam qui itaque saepe laboriosam eos alias, necessitatibus laudantium nisi!</p>
+            </article>
 
-    <section class="section">
-        <h3>Что про меня пишут люди</h3>
-        <article>
-            <h4>Почему меня любят люди</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus quidem, labore ad ducimus, minima asperiores aliquam qui itaque saepe laboriosam eos alias, necessitatibus laudantium nisi!</p>
-        </article>
-
-        <article>
-            <h4>Каково быть капибарой</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, veniam libero minus laudantium aspernatur enim!</p>
-        </article>
+            <article>
+                <h4>Каково быть капибарой</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, veniam libero minus laudantium aspernatur enim!</p>
+            </article>
+        </div>
     </section>
 
     <section class="section">
@@ -182,10 +180,10 @@
             </tbody>
         </table>
     </section>
-
-    <section class="contacts">
+    
+    <section class="section">
         <h3>Напиши мне</h3>
-        <form>
+        <form class="contacts">
             <div>
                 <label for="firstName">Имя</label><br />
                 <input type="text" id="firstName" />
