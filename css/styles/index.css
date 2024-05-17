@@ -35,6 +35,38 @@ h1 {
     letter-spacing: 0.05cap;
 }
 
+.about p {
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #11395c;
+}
+
+a:hover {
+    color: #022849;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: rgb(3, 76, 3);
+}
+
+button {
+    border: none;
+    background-color: #073054;
+    color: #ced9e2;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: medium;
+}
+
+button:hover {
+    opacity: 0.85;
+}
+
 table {
     border-collapse: collapse;
     max-width: 50%;
